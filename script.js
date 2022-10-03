@@ -58,7 +58,7 @@ setInterval(() => {
            audiogo.pause(); 
            audio.pause();
         }, 1000);
-        document.getElementById('myscore').innerHTML  = score
+        document.getElementById('myscore').innerHTML  = score-1
 
     }
     else if(offsetX < 145 && cross){
